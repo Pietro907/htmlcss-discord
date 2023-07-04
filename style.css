@@ -31,9 +31,6 @@ footer {
     margin: 1rem 0;
 }
 
-.login {
-    padding-left: 1.5rem;
-}
 
 .login {
     text-align: right;
@@ -69,11 +66,41 @@ a {
 }
 
 .jumbo_content {
-    background-color: rgba(164, 163, 163, 0.8);
-    width: 55%;
+    width: 90%;
     height: 100%;
     margin: auto;
+    color: white;
+}
 
+.top_title, .text_special, .button{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.top_title {
+    padding: 5rem 0 2rem;
+    font-size: 50px;
+}
+.button {
+    width: 35%;
+    padding-top: 2.5rem;
+    margin: auto;
+}
+
+.b_left {
+    background-color: #23272a;
+
+}
+
+.b_right {
+    color: #23272a;
+
+}
+
+.b_left, .b_right {
+    padding: 1rem;
+    
 }
 
 /* #end region */
