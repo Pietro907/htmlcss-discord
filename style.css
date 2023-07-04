@@ -6,10 +6,10 @@
 
 body {
     margin: auto;
-    font-family: 'gg sans', sans-serif;
+/*     font-family: 'gg sans', sans-serif; */
     font-family: 'gg sans Normal', sans-serif;
-    font-family: 'gg sans Medium', sans-serif;
-    font-family: 'gg sans SemiBold', sans-serif;
+/*     font-family: 'gg sans Medium', sans-serif;
+    font-family: 'gg sans SemiBold', sans-serif; */
 }
 
 /* #region header */
@@ -80,7 +80,7 @@ a {
     text-align: center;
 }
 
-.top_title {
+.top_title, .bot_title {
     padding: 5rem 0 2rem;
     font-size: 25px;
 }
@@ -102,7 +102,6 @@ a {
 
 .b_left, .b_right {
     padding: 1rem;
-    
 }
 
 i {
@@ -114,44 +113,28 @@ i {
 
 /* #region main */
 
-section {
-    border: 1px dashed black;
-}
 
 .container {
-    background-color: rgba(255, 166, 0, 0.381);
     width: 70%;
     margin: 2rem auto;
     padding: 2rem 0;
 }
 
 .row_sect {
-    background-color: rgba(128, 128, 128, 0.642);
-    height: 100%;
     padding: 2rem 0 1rem;
 }
 
 .col_sect-4 {
-    background-color: aquamarine;
     width: calc(100%/12*4);
-    height: 100%;
     padding: 1.5rem 1rem 1rem;
 }
 
 .col_sect-8 {
-    background-color: aquamarine;
     width: calc(100%/12*8);
-    height: 100%;
     padding: 1.5rem 1rem 1rem;
 }
 
-
-.card {
-    background-color: rgba(101, 176, 223, 0.873);
-    height: 100%;
-}
-
-.card > h2{
+h2{
     font-size: 40px;
     margin: 0 0.5rem;
 }
@@ -164,14 +147,25 @@ section {
     background-size: cover;
 }
 
+.bot_title, .text_mini, .tecnology {
+    margin: auto;
+    text-align: center;
+    width: 85%;
+}
+
+.text_mini {
+    font-size: 20px;
+} 
+
 /* #end region */
 
 /* #region footer*/
-.hr {
+
+/* .hr {
     background-color: rgba(255, 166, 0, 0.381);
     height: 5px;
     margin: auto;
-}
+} */
 
 .container_footer {
     background-color: rgba(128, 128, 128, 0.796);
@@ -230,6 +224,10 @@ section {
 .special {
     margin-top: 2rem;
 }
+
+/* section {
+    border: 1px dashed black;
+} */
 
 /* #end */
 
