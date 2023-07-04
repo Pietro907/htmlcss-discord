@@ -6,6 +6,10 @@
 
 body {
     margin: auto;
+    font-family: 'gg sans', sans-serif;
+    font-family: 'gg sans Normal', sans-serif;
+    font-family: 'gg sans Medium', sans-serif;
+    font-family: 'gg sans SemiBold', sans-serif;
 }
 
 /* #region header */
@@ -13,8 +17,7 @@ header {
     background-color: #3161e0;
 }
 
-.container_header,
-footer {
+.container_header, footer {
     width: 70%;
     margin: auto;
 }
@@ -38,7 +41,7 @@ footer {
 
 a {
     background-color: #ffffff;
-    padding: 0.5rem;
+    padding: 0.3rem;
     border-radius: 25px ;
 }
 
@@ -52,7 +55,6 @@ a {
     padding: 5px 0;
     color: white;
     text-align: center;
-
 }
 
 /* #end region*/
@@ -80,7 +82,7 @@ a {
 
 .top_title {
     padding: 5rem 0 2rem;
-    font-size: 50px;
+    font-size: 25px;
 }
 .button {
     width: 35%;
@@ -103,10 +105,15 @@ a {
     
 }
 
+i {
+    padding-right: 0.5rem;
+}
+
 /* #end region */
 
 
 /* #region main */
+
 section {
     border: 1px dashed black;
 }
@@ -114,7 +121,6 @@ section {
 .container {
     background-color: rgba(255, 166, 0, 0.381);
     width: 70%;
-    height: 300px;
     margin: 2rem auto;
     padding: 2rem 0;
 }
@@ -143,7 +149,19 @@ section {
 .card {
     background-color: rgba(101, 176, 223, 0.873);
     height: 100%;
+}
 
+.card > h2{
+    font-size: 40px;
+    margin: 0 0.5rem;
+}
+
+.card > p{
+    margin: 1.5rem 0.5rem 0;
+}
+
+.card_image {
+    background-size: cover;
 }
 
 /* #end region */
