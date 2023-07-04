@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+}
+
+/* #region header */
+header {
+    background-color: #3161e0;
+}
+
+.container_header,
+footer {
+    width: 80%;
+    margin: auto;
+}
+
+.container_header {
+    width: 100%;
+    max-width: 1170px;
+    height: 100%;
+}
+
+.col_h-2 {
+    width: calc(100%/12*2);
+    height: 100%;
+    margin: 1rem 0;
+}
+
+.login {
+    padding-left: 1.5rem;
+}
+
+.login > button {
+
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 24px;
+}
+
+.col_h-8 {
+    height: 20px;
+    width: calc(100%/12*8);
+    margin: 1rem 0;
+}
+
+.n_top {
+    padding: 5px 0;
+    color: white;
+    text-align: center;
+
+}
+
+/* #end region*/
+
+
+/* #region hero */
+.jumbotron {
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+}
+
+.jumbo_content {
+    background-color: rgba(164, 163, 163, 0.8);
+    width: 55%;
+    height: 200px;
+    margin: auto;
+
+}
+
+/* #end region */
+
+
+/* #region main */
+section {
+    border: 1px dashed black;
+}
+
+.container {
+    background-color: rgba(255, 166, 0, 0.381);
+    width: 70%;
+    height: 300px;
+    margin: 2rem auto;
+    padding: 2rem 0;
+}
+
+.row_sect {
+    background-color: rgba(128, 128, 128, 0.642);
+    height: 100%;
+    padding: 2rem 0 1rem;
+}
+
+.col_sect-4 {
+    background-color: aquamarine;
+    width: calc(100%/12*4);
+    height: 100%;
+    padding: 1.5rem 1rem 1rem;
+}
+
+.col_sect-8 {
+    background-color: aquamarine;
+    width: calc(100%/12*8);
+    height: 100%;
+    padding: 1.5rem 1rem 1rem;
+}
+
+
+.card {
+    background-color: rgba(101, 176, 223, 0.873);
+    height: 100%;
+
+}
+
+/* #end region */
+
+/* #region footer*/
+.hr {
+    background-color: rgba(255, 166, 0, 0.381);
+    height: 5px;
+    margin: auto;
+}
+
+.container_footer {
+    background-color: rgba(128, 128, 128, 0.796);
+    height: 250px;
+    padding: 2rem 0 0;
+}
+
+.row_foot {
+    background-color: rgba(175, 174, 174, 0.892);
+    height: 100%;
+    padding: 2rem 0 0rem;
+    column-gap: 0.5rem;
+}
+
+.col_f-2 {
+    background-color: rgba(247, 169, 23, 0.585);
+    width: calc(100%/12*3);
+}
+
+.col_f-8 {
+    background-color: aquamarine;
+    width: calc(100%/12*6);
+}
+
+.contanier_foot-2 {
+    background-color: rgba(128, 128, 128, 0.796);
+    padding: 1rem 0;
+}
+
+.row_aside {
+    background-color: rgba(175, 174, 174, 0.892);
+    height: 2rem;
+}
+
+.col_as {
+    background-color: rgba(255, 166, 0, 0.836);
+    width: calc(100%/12*2);
+    height: 1rem;
+    border: 1px dashed black;
+    margin: auto 0;
+}
+
+/* #end region */
+
+
+/* #utilities */
+.flexbox {
+    display: flex;
+}
+
+.flexbox_bet {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #end */
+
+
+/* .debug --> si mettono le altezze fisse e i colori che dovrò cambiare in fututo */
