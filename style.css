@@ -6,9 +6,9 @@
 
 body {
     margin: auto;
-/*     font-family: 'gg sans', sans-serif; */
+    /*     font-family: 'gg sans', sans-serif; */
     font-family: 'gg sans Normal', sans-serif;
-/*     font-family: 'gg sans Medium', sans-serif;
+    /*     font-family: 'gg sans Medium', sans-serif;
     font-family: 'gg sans SemiBold', sans-serif; */
 }
 
@@ -18,7 +18,8 @@ header {
     padding-top: 1rem;
 }
 
-.container_header, footer {
+.container_header,
+footer {
     width: 70%;
     margin: auto;
 }
@@ -35,29 +36,29 @@ header {
 
 
 .login {
-    text-align: right;
-    padding-top: 0.3rem;
-}
-
-a {
     background-color: #ffffff;
-    padding: 0.5rem;
-    border-radius: 25px;
+    text-align: right;
+    padding: 0.3rem;
+    border-radius: 20px;
+    font-size: small;
 }
-
 
 .col_h-8 {
     width: calc(100%/12*8);
     margin: 1rem 0;
 }
 
-.n_top {
-    padding: 5px 0;
-    color: white;
-    text-align: center;
+.image_discord {
+    height: 20px;
 }
 
-/* #end region*/
+.n_top {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 20px;
+}
+
+/* #endregion header*/
 
 
 /* #region hero */
@@ -74,16 +75,20 @@ a {
     color: white;
 }
 
-.top_title, .text_special, .button{
+.top_title,
+.text_special,
+.button {
     width: 50%;
     margin: auto;
     text-align: center;
 }
 
-.top_title, .bot_title {
+.top_title,
+.bot_title {
     padding: 5rem 0 2rem;
     font-size: 25px;
 }
+
 .button {
     width: 35%;
     padding-top: 2.5rem;
@@ -92,15 +97,19 @@ a {
 
 .b_left {
     background-color: #23272a;
-
+    padding: 0.5rem;
+    border-radius: 25px;
 }
 
 .b_right {
+    background-color: #ffffff;
     color: #23272a;
-
+    padding: 0.5rem;
+    border-radius: 25px;
 }
 
-.b_left, .b_right {
+.b_left,
+.b_right {
     padding: 1rem;
 }
 
@@ -108,7 +117,7 @@ i {
     padding-right: 0.5rem;
 }
 
-/* #end region */
+/* #endregion hero */
 
 
 /* #region main */
@@ -134,12 +143,12 @@ i {
     padding: 1.5rem 1rem 1rem;
 }
 
-h2{
+h2 {
     font-size: 40px;
     margin: 0 0.5rem;
 }
 
-.card > p{
+.card>p {
     margin: 1.5rem 0.5rem 0;
 }
 
@@ -147,7 +156,9 @@ h2{
     background-size: cover;
 }
 
-.bot_title, .text_mini, .tecnology {
+.bot_title,
+.text_mini,
+.tecnology {
     margin: auto;
     text-align: center;
     width: 85%;
@@ -155,9 +166,9 @@ h2{
 
 .text_mini {
     font-size: 20px;
-} 
+}
 
-/* #end region */
+/* #endregion main */
 
 /* #region footer*/
 
@@ -166,52 +177,90 @@ h2{
     height: 5px;
     margin: auto;
 } */
+footer {
+    background-color: #23272a;
+    width: 100%;
+}
 
 .container_footer {
-    background-color: rgba(128, 128, 128, 0.796);
+    background-color: #23272a;
+    width: 70%;
     height: 250px;
+    margin: auto;
     padding: 2rem 0 0;
 }
 
 .row_foot {
-    background-color: rgba(175, 174, 174, 0.892);
     height: 100%;
     padding: 2rem 0 0rem;
     column-gap: 0.5rem;
 }
 
 .col_f-2 {
-    background-color: rgba(247, 169, 23, 0.585);
     width: calc(100%/12*3);
+    display: flex;
+    flex-direction: column;
+}
+
+.col_f-2 > a {
+    color: #ffffff;
+    font-size: small;
 }
 
 .col_f-8 {
-    background-color: aquamarine;
     width: calc(100%/12*6);
 }
 
+hr {
+    color: #3161e0;
+    width: 70%;
+    margin: 5rem auto 3rem;
+}
+
 .contanier_foot-2 {
-    background-color: rgba(128, 128, 128, 0.796);
-    padding: 1rem 0;
+    background-color: #23272a;
+    width: 70%;
+    margin: auto;
 }
 
 .row_aside {
-    background-color: rgba(175, 174, 174, 0.892);
-    height: 2rem;
+    padding-bottom: 3rem;
 }
 
 .col_as {
-    background-color: rgba(255, 166, 0, 0.836);
     width: calc(100%/12*2);
     height: 1rem;
-    border: 1px dashed black;
     margin: auto 0;
 }
 
-/* #end region */
+h3,
+h5 {
+    color: #3161e0;
+}
+
+.lng,
+footer>a {
+    color: #ffffff;
+}
 
 
-/* #utilities */
+
+.register {
+    background-color: #3161e0;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 0.3rem;
+    border-radius: 20px;
+}
+
+.register>a {
+    font-size: x-small;
+}
+
+/* #endregion footer */
+
+
+/* #region utilities */
 .flexbox {
     display: flex;
 }
@@ -219,17 +268,54 @@ h2{
 .flexbox_bet {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.flex_start {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.flex_end {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.lng {
+    padding: 0 0.5rem;
 }
 
 .special {
     margin-top: 2rem;
 }
 
+.wave_top {
+    color: rgba(128, 128, 128, 0.251);
+    margin: 0 0 -2.3rem;
+}
+
+.wave_top_2 {
+    color: rgba(128, 128, 128, 0.251);
+    margin: 0 0 -0.3rem;
+}
+
+.wave_bott {
+    color: rgba(128, 128, 128, 0.251);
+    transform: rotate(180deg);
+    margin: -2.3rem 0 0;
+}
+
+.wave_color {
+    background-color: rgba(128, 128, 128, 0.251);
+}
+
 /* section {
     border: 1px dashed black;
 } */
 
-/* #end */
+/* #endregion utilities */
 
 
 /* .debug --> si mettono le altezze fisse e i colori che dovrò cambiare in fututo */
